@@ -1,0 +1,75 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.35213.121
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DLL", "DLL", "{530F6FA7-04DE-443F-B605-55EA82A43EB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EXE", "EXE", "{AA6F75A3-B38E-47F2-8DD4-B8A40A3A0B0F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LIB", "LIB", "{BBD80701-E167-4B15-B762-36DDB28B4CE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MAIN", "MAIN", "{A019126C-E9F3-4324-9C2C-9B19C9DAD6ED}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathFuncsDll", "MathFuncsDll\MathFuncsDll.vcxproj", "{0F2219D8-F260-47D0-9EC2-270FE78C132E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathAverageLib", "MathAverageLib\MathAverageLib.vcxproj", "{B893FA2B-C426-493F-807D-7B57364C043C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MathSquare", "MathSquare\MathSquare.vcxproj", "{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "main", "main\main.vcxproj", "{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Debug|x64.ActiveCfg = Debug|x64
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Debug|x64.Build.0 = Debug|x64
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Debug|x86.ActiveCfg = Debug|Win32
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Debug|x86.Build.0 = Debug|Win32
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Release|x64.ActiveCfg = Release|x64
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Release|x64.Build.0 = Release|x64
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Release|x86.ActiveCfg = Release|Win32
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E}.Release|x86.Build.0 = Release|Win32
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Debug|x64.ActiveCfg = Debug|x64
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Debug|x64.Build.0 = Debug|x64
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Debug|x86.ActiveCfg = Debug|Win32
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Debug|x86.Build.0 = Debug|Win32
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Release|x64.ActiveCfg = Release|x64
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Release|x64.Build.0 = Release|x64
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Release|x86.ActiveCfg = Release|Win32
+		{B893FA2B-C426-493F-807D-7B57364C043C}.Release|x86.Build.0 = Release|Win32
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Debug|x64.ActiveCfg = Debug|x64
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Debug|x64.Build.0 = Debug|x64
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Debug|x86.ActiveCfg = Debug|Win32
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Debug|x86.Build.0 = Debug|Win32
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Release|x64.ActiveCfg = Release|x64
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Release|x64.Build.0 = Release|x64
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Release|x86.ActiveCfg = Release|Win32
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B}.Release|x86.Build.0 = Release|Win32
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Debug|x64.ActiveCfg = Debug|x64
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Debug|x64.Build.0 = Debug|x64
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Debug|x86.Build.0 = Debug|Win32
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Release|x64.ActiveCfg = Release|x64
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Release|x64.Build.0 = Release|x64
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Release|x86.ActiveCfg = Release|Win32
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0F2219D8-F260-47D0-9EC2-270FE78C132E} = {530F6FA7-04DE-443F-B605-55EA82A43EB2}
+		{B893FA2B-C426-493F-807D-7B57364C043C} = {BBD80701-E167-4B15-B762-36DDB28B4CE1}
+		{DAA060C7-C9D2-409E-9AAE-E4558A33D94B} = {AA6F75A3-B38E-47F2-8DD4-B8A40A3A0B0F}
+		{D87595B6-A8AF-46B1-81BA-06E0DF39CB3A} = {A019126C-E9F3-4324-9C2C-9B19C9DAD6ED}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5408AD7B-1745-42F9-823C-64454F35BB4E}
+	EndGlobalSection
+EndGlobal
